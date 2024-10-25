@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>התחברות מנהל</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="text-box">
+        <h1>התחברות מנהל</h1>
+        </div>
+        <form action="/submit-manager-login" method="post">
+            <label for="manager-username">:שם משתמש</label>
+            <input type="text" id="manager-username" name="manager-username" required>
+            <br>
+            <label for="manager-password">:סיסמה</label>
+            <input type="password" id="manager-password" name="manager-password" required>
+            <br>
+            <button type="submit">התחבר</button>
+        </form>
+    </div>
+</body>
+</html>
